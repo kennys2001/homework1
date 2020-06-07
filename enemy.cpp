@@ -1,0 +1,9 @@
+#include<enemy.h>
+enemy::enemy():p(position(0,0))
+{
+    life=100;
+}
+enemy::~enemy()
+{
+    ;
+}
